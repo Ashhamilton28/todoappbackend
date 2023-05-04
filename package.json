@@ -1,10 +1,18 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.7.0"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-prebuild": "npm install"
   },
   "keywords": [],
   "author": "",
